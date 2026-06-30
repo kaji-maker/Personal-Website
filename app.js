@@ -292,6 +292,12 @@ const SearchManager = {
       const drawThumb = () => {
         if (!document.getElementById(`canvas-thumb-${project.id}`)) return; // Element removed/hidden
         
+        // Skip rendering computations if the card is hidden
+        if (canvas.offsetWidth === 0) {
+          requestAnimationFrame(drawThumb);
+          return;
+        }
+        
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.strokeStyle = project.category === 'math' ? 'rgba(138, 43, 226, 0.25)' : 'rgba(0, 206, 209, 0.25)';
         ctx.lineWidth = 1.5;
