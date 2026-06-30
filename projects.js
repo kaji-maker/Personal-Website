@@ -9,7 +9,7 @@ const projectsData = [
     stats: "RK4 Integration",
     interactiveType: "lorenz",
     featured: true,
-    codeLink: "https://github.com/kaji-maker/lorenz-chaos-simulator"
+    codeLink: "https://github.com/kaji-maker/Personal-Website"
   },
   {
     id: "fourier-series",
@@ -21,7 +21,7 @@ const projectsData = [
     stats: "DFT Algorithm",
     interactiveType: "fourier",
     featured: true,
-    codeLink: "https://github.com/kaji-maker/fourier-series-epicycles"
+    codeLink: "https://github.com/kaji-maker/Personal-Website"
   },
   {
     id: "ulam-spiral",
@@ -33,7 +33,7 @@ const projectsData = [
     stats: "Sieve Optimizer",
     interactiveType: "ulam",
     featured: false,
-    codeLink: "https://github.com/kaji-maker/ulam-prime-spiral"
+    codeLink: "https://github.com/kaji-maker/Personal-Website"
   },
   {
     id: "mandelbrot-fractal",
@@ -45,7 +45,7 @@ const projectsData = [
     stats: "Complex Plane",
     interactiveType: "mandelbrot",
     featured: false,
-    codeLink: "https://github.com/kaji-maker/mandelbrot-fractal-explorer"
+    codeLink: "https://github.com/kaji-maker/Personal-Website"
   },
   {
     id: "zenith-task",
@@ -57,7 +57,7 @@ const projectsData = [
     stats: "15k+ Downloads",
     interactiveType: "flutter-zenith",
     featured: true,
-    codeLink: "https://github.com/kaji-maker/zenith-task"
+    codeLink: "https://github.com/kaji-maker/Personal-Website"
   },
   {
     id: "aether-weather",
@@ -69,7 +69,7 @@ const projectsData = [
     stats: "4.9/5 Rating",
     interactiveType: "flutter-aether",
     featured: true,
-    codeLink: "https://github.com/kaji-maker/aether-weather"
+    codeLink: "https://github.com/kaji-maker/Personal-Website"
   },
   {
     id: "calorytics",
@@ -81,7 +81,7 @@ const projectsData = [
     stats: "Offline Encrypted",
     interactiveType: "flutter-calorytics",
     featured: false,
-    codeLink: "https://github.com/kaji-maker/calorytics"
+    codeLink: "https://github.com/kaji-maker/Personal-Website"
   },
   {
     id: "fluxflow",
@@ -93,7 +93,7 @@ const projectsData = [
     stats: "Vector Editor",
     interactiveType: "flutter-fluxflow",
     featured: false,
-    codeLink: "https://github.com/kaji-maker/fluxflow"
+    codeLink: "https://github.com/kaji-maker/Personal-Website"
   }
 ];
 
